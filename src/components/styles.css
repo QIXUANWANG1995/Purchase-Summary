@@ -1,0 +1,147 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  border-style: solid;
+  border-width: thin;
+  border-top-color: transparent;
+  border-right-color: lightgrey;
+  border-left-color: lightgrey;
+  border-bottom-color: lightgrey;
+  border-radius: 3px;
+  padding: 2%;
+  flex-direction: column;
+}
+.outerbox {
+  margin: auto;
+}
+.modulebox {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.qulity {
+  font-size: 0.75rem;
+  margin-right: 10px;
+}
+
+.blackprice {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.redprice {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: red;
+}
+.greyprice {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: grey;
+  text-decoration: line-through;
+}
+.boldfont {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.productName {
+  font-size: 0.875rem;
+}
+
+.priceAndQulity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itembox {
+  display: flex;
+  justify-content: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.menu {
+  text-align: left;
+}
+
+.itemdescription {
+  font-size: 14px;
+}
+.dropdownbtn {
+  border-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+}
+.pickupsaving {
+  cursor: pointer;
+  text-decoration: underline;
+}
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: lightgrey;
+  border: 0 none;
+}
+label {
+  margin-left: 5px;
+  font-size: 0.875rem;
+  color: grey;
+}
+.form {
+  margin-top: 10px;
+}
+.inputvalue {
+  margin-right: 5px;
+  height: 20px;
+  margin-top: 5px;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+.applybtn {
+  border-color: black;
+  border-radius: 2em;
+  height: 25px;
+  font-weight: bold;
+}
+
+.static {
+  position: absolute;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  background-color: white;
+  width: 200px;
+  padding: 2%;
+  text-align: justify;
+  z-index: 2;
+}
+
+.modalvisible {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  opacity: 0;
+  z-index: 1;
+}
+
+.modalhidden {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  opacity: 0;
+  z-index: -1;
+}
